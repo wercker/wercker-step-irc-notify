@@ -1,0 +1,26 @@
+name: irc-notify
+version: 1.0.0
+summary: Send a message to an IRC channel
+tags:
+  - notification
+  - irc
+properties:
+- name: server
+  type: string
+  required: true
+- name: port
+  type: number
+  required: true
+- name: nickname
+  type: string
+  required: true
+- name: channel
+  type: string
+  required: true
+- name: failed-message
+  type: string
+- name: passed-message
+  type: string
+- name: on
+  type: string
+  default: always
