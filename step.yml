@@ -1,5 +1,5 @@
 name: irc-notify
-version: 1.0.0
+version: 1.0.1
 summary: Send a message to an IRC channel
 tags:
   - notification
